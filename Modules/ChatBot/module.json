@@ -1,0 +1,14 @@
+{
+    "name": "ChatBot",
+    "alias": "chatbot",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ChatBot\\Providers\\ChatBotServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,74 @@
+.dashboard-counts {
+    color: #333;
+}
+
+.section-padding {
+    padding: 1rem 0;
+}
+
+@media (min-width: 768px) {
+    .container-fluid {
+        padding: 0 3rem;
+    }
+}
+
+.dashboard-counts .icon {
+    margin-right: 10px;
+}
+
+.dashboard-counts .count-title i {
+    font-size: 1.5em;
+    color: #33b35a;
+}
+
+@media (min-width: 768px) {
+    .dashboard-counts strong {
+        font-size: 1em;
+    }
+}
+
+.dashboard-counts strong {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #555;
+    display: block;
+}
+.text-uppercase {
+    letter-spacing: 0.2em;
+}
+
+.dashboard-counts .count-title span {
+    font-size: 1.15em;
+    color: #383636;
+    display: block;
+    /*display: none;*/
+}
+
+@media (min-width: 768px) {
+    .dashboard-counts span {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 768px){
+    .dashboard-counts .count-number {
+        font-size: 3em;
+    }
+}
+.dashboard-counts .count-number {
+    font-size: 2.2em;
+    font-weight: 500;
+    color:green;
+}
+
+.dashboard-counts .count-number.red{
+    color: red;
+}
+
+.row .wrapper{
+    margin: 10px 0;
+}
+
+.card.activity-chart{
+    width: 100%;
+}

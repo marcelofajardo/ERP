@@ -1,0 +1,24 @@
+{
+  "siteEntry": [
+    {
+      "siteUrl": "https://sololuxury.com/ae_en/",
+      "permissionLevel": "siteOwner"
+    },
+    {
+      "siteUrl": "https://sololuxury.com/sa_ar/",
+      "permissionLevel": "siteOwner"
+    },
+    {
+      "siteUrl": "https://sololuxury.com/ae_ar/",
+      "permissionLevel": "siteOwner"
+    },
+    {
+      "siteUrl": "https://sololuxury.com/",
+      "permissionLevel": "siteOwner"
+    },
+    {
+      "siteUrl": "https://sololuxury.com/sa_en/",
+      "permissionLevel": "siteOwner"
+    }
+  ]
+}

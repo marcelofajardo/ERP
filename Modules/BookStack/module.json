@@ -1,0 +1,14 @@
+{
+    "name": "BookStack",
+    "alias": "bookstack",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\BookStack\\Providers\\BookStackServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

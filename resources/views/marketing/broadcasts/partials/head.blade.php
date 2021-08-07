@@ -1,0 +1,1 @@
+  <h2 class="page-heading">Broadcast List ( {{ $customers->total() }} )</h2>

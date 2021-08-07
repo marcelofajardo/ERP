@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/storewebsite",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\StoreWebsite\\Providers\\StoreWebsiteServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\StoreWebsite\\": ""
+        }
+    }
+}

@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/id_rsa root@cr01.theluxuryunlimited.com "cd ~/root/py-cropper && git rev-parse --abbrev-ref HEAD"

@@ -1,0 +1,217 @@
+table.dataTable thead .sorting:after,
+	table.dataTable thead .sorting:before,
+	table.dataTable thead .sorting_asc:after,
+	table.dataTable thead .sorting_asc:before,
+	table.dataTable thead .sorting_asc_disabled:after,
+	table.dataTable thead .sorting_asc_disabled:before,
+	table.dataTable thead .sorting_desc:after,
+	table.dataTable thead .sorting_desc:before,
+	table.dataTable thead .sorting_desc_disabled:after,
+	table.dataTable thead .sorting_desc_disabled:before {
+	bottom: .5em;
+	}
+	#tree-container-dialog ul {
+		list-style-type: none;
+	}
+	#dialog-tree.node-children {
+	    margin: 0 32px 32px 34px;
+	}
+	.wc--body * {
+	    box-sizing: border-box;
+	}
+	.node-children {
+	    list-style: none;
+	    margin: 0;
+	}
+	.node-children>.node-child>.node-container {
+	    position: relative;
+	    margin: 0 0 16px 16px;
+	}
+	.node {
+	    position: relative;
+	    display: flex;
+	    outline: none;
+	    width: 460px;
+	    border: 1px solid #8897a2;
+	    background-color: #fff;
+	    height: 90px;
+	}
+	.node__expander {
+	    width: 36px;
+	    min-width: 36px;
+	}
+	.node__expander>button {
+	    border: none;
+	    background-color: transparent;
+	    cursor: pointer;
+	    height: 100%;
+	    width: 100%;
+	    vertical-align: middle;
+	    text-align: center;
+	    border-right: 1px solid #8897a2;
+	}
+	.node__expander>button>svg {
+	    fill: #3d70b2;
+	}
+	.node__contents {
+	    display: flex;
+	    flex-direction: column;
+	    flex: 1;
+	    padding: 8px 16px;
+	    max-width: 400px;
+	    text-align: left;
+	    color: #5a6872;
+	    cursor: pointer;
+	}
+	.node__summary {
+	    height: 64px;
+	}
+	.node__text {
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	    margin-bottom: 4px;
+	    line-height: 1.2;
+	}
+	.node__subtext {
+	    font-size: 0.75em;
+	    line-height: 1.5em;
+	    color: #5a6872;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	}
+	.bx--overflow-menu {
+	    position: relative;
+	    width: 1.25rem;
+	    height: 2.375rem;
+	    cursor: pointer;
+	}
+	.bx--overflow-menu__icon {
+	    width: 100%;
+	    height: 100%;
+	    padding: 0.5rem;
+	    fill: #5a6872;
+	}
+	.node-children>.node-child>.node-container::before {
+	    content: '';
+	    position: absolute;
+	    display: block;
+	    border-left: 2px solid #8897a2;
+	    color: #41d6c3;
+	    width: 0;
+	    height: 18px;
+	    left: -23px;
+	    top: -17px;
+	   } 
+	.node-children>.node-child:not(:last-of-type)>.node-container::after {
+	    content: '';
+	    position: absolute;
+	    display: block;
+	    border-left: 2px solid #8897a2;
+	    width: 0;
+	    height: 100%;
+	    left: -23px;
+	    top: 16px;
+	}
+	.node::before {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #8897a2;
+    border-left: 2px solid #8897a2;
+    border-bottom-left-radius: 50%;
+    width: 22px;
+    height: 47px;
+    left: -24px;
+    top: 0;
+    padding: 0;
+    position: absolute;
+}
+.node-container .node--expanded ~ .node-children {
+    display: block;
+}
+.node-container .node-children {
+    margin-top: 16px;
+    margin-left: 28px;
+}
+.bx--overflow-menu--flip {
+    left: -140px;
+}
+.bx--overflow-menu-options--open {
+    display: flex;
+}
+.bx--overflow-menu-options {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 10000;
+    background-color: #fff;
+    border: 1px solid #dfe3e6;
+    width: 11.25rem;
+    list-style: none;
+    margin-top: .25rem;
+    padding: .25rem 0 .5rem;
+    left: -20px;
+}
+.bx--overflow-menu-options__option {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+.bx--overflow-menu-options__btn {
+    font-size: 0.875rem;
+    font-family: "ibm-plex-sans",Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: inline-block;
+    background-color: transparent;
+    text-align: left;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    color: #152934;
+    max-width: 11.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.bx--overflow-menu-options--open {
+    display: flex;
+}
+
+@media screen and (min-width: 992px) {
+	.node-editor--open {
+		min-width: 810px;
+	}
+}
+
+
+.node-editor {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    overflow-x: hidden;
+    z-index: 100;
+    max-width: 0;
+    min-width: 0;
+}
+
+/*.node-editor--open {
+    max-width: 810px;
+    min-width: 100%;
+}
+
+.dialog-tree-container {
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+.dialog-tree-container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1 1 auto;
+}*/

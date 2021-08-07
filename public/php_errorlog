@@ -1,0 +1,9 @@
+[25-Aug-2018 18:17:25 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?' in /home/sololuxu/public_html/sololuxury_erp/sololuxury_app/vendor/symfony/http-foundation/Response.php on line 501
+[25-Aug-2018 18:17:25 Asia/Kolkata] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Aug-2018 18:17:25 Asia/Kolkata] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Aug-2018 18:17:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?' in /home/sololuxu/public_html/sololuxury_erp/sololuxury_app/vendor/symfony/http-foundation/Response.php on line 501
+[25-Aug-2018 18:17:27 Asia/Kolkata] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Aug-2018 18:17:27 Asia/Kolkata] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[16-Oct-2018 02:07:34 CST6CDT] PHP Fatal error:  require(): Failed opening required '/home/sololuxu/public_html/sololuxury_erp/sololuxury_app/public/../vendor/autoload.php' (include_path='.:/usr/local/php72/pear') in /home/sololuxu/public_html/sololuxury_erp/sololuxury_app/public/index.php on line 24
+[16-Oct-2018 02:07:34 CST6CDT] PHP Fatal error:  require(): Failed opening required '/home/sololuxu/public_html/sololuxury_erp/sololuxury_app/public/../vendor/autoload.php' (include_path='.:/usr/local/php72/pear') in /home/sololuxu/public_html/sololuxury_erp/sololuxury_app/public/index.php on line 24
+[16-Oct-2018 02:07:37 CST6CDT] PHP Fatal error:  require(): Failed opening required '/home/sololuxu/public_html/sololuxury_erp/sololuxury_app/public/../vendor/autoload.php' (include_path='.:/usr/local/php72/pear') in /home/sololuxu/public_html/sololuxury_erp/sololuxury_app/public/index.php on line 24

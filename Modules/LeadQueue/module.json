@@ -1,0 +1,14 @@
+{
+    "name": "LeadQueue",
+    "alias": "leadqueue",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\LeadQueue\\Providers\\LeadQueueServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

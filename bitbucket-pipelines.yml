@@ -1,0 +1,11 @@
+pipelines:
+  branches: # Automated triggers on commits to branches
+    master: # -- When committing to master branch
+    - step:
+        deployment: production
+        caches:
+          - composer
+        script:
+          - apt-get update
+          - apt-get -qq install git-ftp
+          - git ftp push --user pipeline@amourint.com --passwd pipeline123 ftp://77.104.185.154

@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/id_rsa root@cr01.theluxuryunlimited.com "cd ~/root/py-cropper && git pull && git checkout $1 && git pull && pkill -f todo1"

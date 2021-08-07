@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/messagequeue",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\MessageQueue\\Providers\\MessageQueueServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MessageQueue\\": ""
+        }
+    }
+}
